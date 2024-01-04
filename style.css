@@ -59,6 +59,7 @@ span:nth-child(2) {
   color: #fbb03b;
   transition: all 0.3s ease-in-out;
 }
+
 .hero {
   display: flex;
   justify-content: space-around;
