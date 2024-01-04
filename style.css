@@ -4,6 +4,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.hero,
+.team,
+.testimonials {
+  min-height: 100vh;
+}
 body {
   font-family: "Comic Neue", cursive;
   background: #fff;
@@ -21,6 +34,8 @@ nav {
 .container {
   display: flex;
   flex-direction: column;
+  min-height: 100%;
+  position: relative;
 }
 
 .header {
@@ -236,7 +251,7 @@ span:nth-child(2) {
   border: 2px solid #1f2937;
   margin-bottom: 1rem;
 }
-.testimonials-card-text p{
+.testimonials-card-text p {
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 0.5rem;
